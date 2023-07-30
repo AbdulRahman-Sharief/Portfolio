@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { client } from "../../client";
-
+import axios from "axios";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -39,14 +39,17 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card">
           <img src={images.email} alt="email" />
-          <a href="mailto:hello@micael.com" className="p-text">
-            Hello@micael.com
+          <a
+            href="https://mail.google.com/mail/u/0/?fs=1&to=AbdulRahmanSharief2@gmail.com&su=Work&body=Work&tf=cm"
+            className="p-text"
+          >
+            AbdulRahmanSharief2@gmail.com
           </a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="mobile" />
-          <a href="tel:+1 (123) 546-789" className="p-text">
-            +1 (123) 546-789
+          <a href="https://t.me/AbdulRahmanSharief" className="p-text">
+            (+20 3)01550697992
           </a>
         </div>
       </div>

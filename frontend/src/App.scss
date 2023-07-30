@@ -118,19 +118,23 @@
     align-items: center;
 
     transition: all 0.3s ease-in-out;
-
-    svg {
-      width: 15px;
-      height: 15px;
-      color: var(--gray-color);
+    a {
+      width: 25px;
+      height: 25px;
+      svg {
+        width: 25px;
+        height: 25px;
+        color: var(--gray-color);
+      }
     }
 
     &:hover {
       background-color: var(--secondary-color);
       border-color: var(--secondary-color);
-
-      svg {
-        color: var(--white-color);
+      a {
+        svg {
+          color: var(--white-color);
+        }
       }
     }
 
@@ -139,10 +143,13 @@
       height: 70px;
 
       margin: 0.5rem 0;
-
-      svg {
+      a {
         width: 30px;
         height: 30px;
+        svg {
+          width: 30px;
+          height: 30px;
+        }
       }
     }
   }
