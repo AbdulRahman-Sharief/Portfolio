@@ -34,6 +34,12 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import cover from '../assets/cover.png';
+import AbdulRahman from '../assets/AbdulRahman.png';
+import AbdulRahman2 from '../assets/AbdulRahman2.png';
+import AbdulRahman1 from '../assets/AbdulRahman1.png';
+import AbdulRahman4 from '../assets/AbdulRahman4.png';
+import next from '../assets/next.png';
 
 export default {
     email,
@@ -69,4 +75,10 @@ export default {
     nb,
     skype,
     spotify,
+    cover,
+    AbdulRahman,
+    AbdulRahman1,
+    AbdulRahman2,
+    AbdulRahman4,
+    next
 };

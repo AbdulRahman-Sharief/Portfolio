@@ -179,7 +179,9 @@
     object-fit: contain;
     z-index: 1;
   }
-
+  .fancy-border-radius {
+    border-radius: 30% 70% 59% 41% / 70% 52% 48% 30%;
+  }
   .overlay_circle {
     position: absolute;
     left: 0;
